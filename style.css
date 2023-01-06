@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+}
+
+/* * Primary CSS * */
+.btn-primary {
+  border: 1px solid tomato;
+  padding: 0.5em 1.5em;
+  background-color: tomato;
+  font-size: 1.3em;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.btn-secondary {
+  padding: 0.5em 1.5em;
+  background-color: #fff;
+  font-size: 1.3em;
+  color: tomato;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  color: tomato;
+  background-color: #fff;
+  border: 1px solid tomato;
+}
+.btn-secondary:hover {
+  background-color: tomato;
+  color: #fff;
+  border: none;
+}
+.section,
+.footer-section {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 5em 0;
+}
+header {
+  text-align: right;
+  background-image: url("/img/banner/banner1.png");
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+li {
+  list-style-type: square;
+}
+
+/* * Header section CSS * */
+.header-details {
+  width: 1200px;
+  margin: 0 auto;
+}
+.header-title {
+  font-size: 3em;
+}
+.header-desc {
+  color: #454545;
+  line-height: 28px;
+  padding: 1em 0;
+}
+
+/* * My-past section * */
+.my-past {
+  display: flex;
+  align-items: center;
+  gap: 3em;
+  justify-content: space-between;
+}
+.my-past img {
+  width: 40%;
+}
+.past-details {
+  width: 40%;
+}
+.past-details-title {
+  font-size: 2em;
+}
+.past-details-desc {
+  color: #454545;
+  line-height: 28px;
+  padding: 1em 0;
+}
+.past-list {
+  padding: 0 1em;
+}
+.past-list li {
+  padding: 5px 0;
+}
+
+/* * My Plans Section * */
+.plan-section-title {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 700;
+  padding-bottom: 2em;
+}
+.plans {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.plan {
+  text-align: center;
+  width: 250px;
+  border-radius: 5px;
+  padding: 1em;
+  box-shadow: 6px 6px 22px 1px #c3c3c3;
+}
+.plan-title {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.plan-subtitle {
+  color: #454545;
+}
+
+/* * My Upcoming Events * */
+.events-section-title {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 700;
+  padding-bottom: 2em;
+}
+.event {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+  padding: 2em 0;
+}
+.date {
+  border: 1px solid tomato;
+  height: 150px;
+  color: tomato;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 3em;
+}
+.date h3 {
+  font-size: 4em;
+}
+.event-details h5 {
+  font-weight: normal;
+}
+.event-desc {
+  padding: 10px 0;
+  width: 60%;
+}
+.event-img {
+  width: 300px;
+}
+.events-section button {
+  display: block;
+  margin: 0 auto;
+}
+
+/* * CTA Section * */
+.cta-section {
+  background-image: url("/img/gradient3.png"), url("/img/watch.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 3em;
+  border-radius: 10px;
+}
+.cta-title {
+  font-size: 2em;
+  padding-left: 3em;
+  color: #fff;
+}
+.cta {
+  position: relative;
+  left: 4.7em;
+  top: 1em;
+}
+
+/* * Footer * */
+footer {
+  background-color: #454545;
+  color: #fff;
+}
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+}
+.future-section {
+  width: 40%;
+}
+.future-title {
+  font-size: 2em;
+}
+.future-desc {
+  color: rgb(218, 218, 218);
+  padding: 1em 0;
+}
+.future-section h4 {
+  font-weight: normal;
+  padding: 0.5em 0;
+}
+.subscribe-title {
+  font-size: 2em;
+}
+.subscibe-section input {
+  padding: 1em 0.5em;
+  width: 300px;
+  background: none;
+  border: 2px solid #757575;
+  border-radius: 5px;
+  display: block;
+  color: #757575;
+  margin: 2em 0 1em;
+}
+.subscibe-section input:focus {
+  outline: none;
+}
+.copyright {
+  font-size: 12px;
+  text-align: center;
+  padding: 5px 0;
+}
